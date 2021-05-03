@@ -25,6 +25,16 @@ public class Cs204databaseApplication {
         return "index";
     }
 
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
+    @GetMapping("/registration")
+    public String reg(){
+        return "registration";
+    }
+
     @GetMapping("/about")
     public String aboutMe(){
         return "about";
